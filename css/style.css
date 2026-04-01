@@ -1,15 +1,46 @@
+
+
+
+p,h2{
+    color: yellow;
+
+}
+
+
 body{background-color: #1a1b18;
 color:#d1d1c1 ;
 font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Geneva, Verdana, sans-serif ;
 line-height: 1.2;
-margin 0;
+margin: 0;/*padding 0;*/
 padding: 20px;
+}
 
+#nav-links{
+   color: aqua;
+   font-size: 20px;
+   text-decoration: none;
+}
+#menu{
+background-color: crimson;
+border-radius: 5px;
+list-style: none;
+padding: 20px;
+}
+
+#menu li{
+    display: inline-block;
+    margin:0 20px;
 }
 
 /*
     CONTAINER PRINCIPAL
 */
+
+#active-link{
+    color: red;
+    background-color: darkgrey;
+    border-radius: 5px;
+}
 
 main{
     max-width: 1000px;
